@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Telosys news](README.md)
+* [Version 4.0](version-4.0.md)
 
