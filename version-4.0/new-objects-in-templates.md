@@ -12,10 +12,6 @@ xxx
 
 
 
-### $joinTable 
-
-xxx
-
 
 
 ### $file
