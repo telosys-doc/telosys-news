@@ -1,6 +1,4 @@
-# Version 4.0
+# Version 3.3.0
 
-Version 4.0 is a major new version.
-
-It comes with a lot of new features.
+Version 3.3.0 comes with a lot of new features.
 
