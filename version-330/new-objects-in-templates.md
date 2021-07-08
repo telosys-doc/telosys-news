@@ -38,7 +38,19 @@ Many objects have been improved with new methods added
   * joinWithPrefixSuffix\(collection, separator, prefix, suffix\) 
   * replaceInList\(list, oldElement, newElement\)
   * toList\(array\) 
-  * trimAll\(list\)
+  * trimAll\(list\) 
+* **$jpa : new methods**
+  * genTargetEntity
+  * joinColumnInsertable
+  * joinColumnUpdatable 
+  * linkAnnotations\(leftMargin, link\)
+  * linkCardinalityAnnotation\(leftMargin,link\) 
+  * linkJoinAnnotationleftMargin, link\) 
+  * linkJoinAnnotationleftMargin, link, alreadyMappedFields\) 
+  * manyToManyFetchType 
+  * manyToOneFetchType 
+  * oneToManyFetchType 
+  * oneToOneFetchType
 
 \*\*\*\*
 
