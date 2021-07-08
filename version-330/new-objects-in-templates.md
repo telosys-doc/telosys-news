@@ -66,7 +66,9 @@ Many objects have been improved with new attributes and new methods added.
   * name 
   * title 
   * type 
-  * version
+  * version 
+* **$project :**
+  * modelsFolderFullPath
 
 \*\*\*\*
 
