@@ -2,8 +2,17 @@
 
 ### New target languages
 
-2 new predefined target languages have been added : **C++** and **Scala**   
+2 new predefined target languages have been added : **C++** and **Scala** 
 
+To set these languages as the default target languages in a template file :
+
+```text
+#set( $env.language = 'C++' )
+```
+
+```text
+#set( $env.language = 'Scala' )
+```
 
 ### Files usage
 
