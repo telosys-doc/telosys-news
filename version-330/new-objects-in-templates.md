@@ -68,7 +68,12 @@ Many objects have been improved with new attributes and new methods added.
   * type 
   * version 
 * **$project :**
-  * modelsFolderFullPath
+  * modelsFolderFullPath 
+* **$target :**
+  * originalFolderDefinition 
+  * outputFileExists\(\) 
+  * outputFileFullPath 
+  * type
 
 \*\*\*\*
 
