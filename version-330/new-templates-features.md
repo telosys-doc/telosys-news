@@ -32,6 +32,14 @@ file.length        : $file.length
 ## Load file content :
 #set($content = $file.loadContent() )
 #set($lines = $file.loadLines() )
+
+#if( $file.exists() && $file.isFile() )
+$file.loadContent(2)## NO EOL
+#end
+
+#foreach ( $line in $file.loadLines(3) )
+ . $line
+#end
 ```
 
 
