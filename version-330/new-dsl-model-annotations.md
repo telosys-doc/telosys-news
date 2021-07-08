@@ -9,7 +9,7 @@
 * **@Optional**
 * **@Transient**
 
-xx
+
 
 ### New annotations for links 
 
@@ -31,7 +31,7 @@ xx
 * Link "mapped by" \(for ORM\) :
   * **@MappedBy\(**attributeName**\)**
 
-xx
+
 
 ### Annotation removed
 
