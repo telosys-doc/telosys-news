@@ -50,7 +50,16 @@ Many objects have been improved with new methods added
   * manyToManyFetchType 
   * manyToOneFetchType 
   * oneToManyFetchType 
-  * oneToOneFetchType
+  * oneToOneFetchType 
+* **$link : new methods**
+  * entity 
+  * hasMappedBy\(\) 
+  * insertable
+  * insertableIs\(boolean value\)
+  * isEmbedded\(\) 
+  * isTransient\(\) 
+  * updatable 
+  * updatableIs\(boolean value\)
 
 \*\*\*\*
 
