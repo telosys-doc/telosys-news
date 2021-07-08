@@ -40,6 +40,13 @@ $file.loadContent(2)## NO EOL
 #foreach ( $line in $file.loadLines(3) )
  . $line
 #end
+
+## CSV file
+#set( $file = $fn.fileFromBundle("enum-csv.txt") )
+#set( $lines = $file.loadValues(",", 1) )
+#foreach ( $line in $lines )
+ $line.get(0) : $line.get(1) 
+#else
 ```
 
 
