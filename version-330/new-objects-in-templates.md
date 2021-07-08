@@ -2,27 +2,16 @@
 
 ## New objects
 
-### $bundle 
+4 new objects have been added and are now usable in templates : 
+
+* **$bundle** 
+* **$now**
+* **$file**
+* **$fkPart**
 
 xxx
 
 
-
-### $now 
-
-xxx
-
-
-
-### $file
-
-xxx
-
-
-
-### $fkPart
-
-xxxx
 
 ## Objects improvement
 
