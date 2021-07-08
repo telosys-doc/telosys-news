@@ -24,9 +24,12 @@ xxx
 
 
 
-### Current bundle is now exposed in context
+### \#cancel directive
 
-New object $bundle
+It's now possible to cancel the current file generation in a template.  
+The cancel directive just stop the generation without writing the output file \(with a message explaining why the generation has been canceled\).
 
+Example 
 
+xxx
 
