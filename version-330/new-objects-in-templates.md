@@ -11,9 +11,9 @@
 
 ### Objects improvement
 
-Many objects have been improved with new methods added
+Many objects have been improved with new attributes and new methods added.
 
-* **$attribute : new methods**
+* **$attribute :** 
   * fkParts 
   * hasDatabaseComment\(\) 
   * hasInputType\(\) 
@@ -26,10 +26,10 @@ Many objects have been improved with new methods added
   * tagValue\(tagName\) 
   * updatable 
   * updatableIs\(value\) 
-* **$entity : new methods** 
+* **$entity :** 
   * isJoinEntity\(\) 
   * linksCount 
-* **$fn : new methods** 
+* **$fn :** 
   * className\(object\)
   * file\(filePath\) 
   * fileFromBundle\(filePath\) 
@@ -39,7 +39,7 @@ Many objects have been improved with new methods added
   * replaceInList\(list, oldElement, newElement\)
   * toList\(array\) 
   * trimAll\(list\) 
-* **$jpa : new methods**
+* **$jpa :** 
   * genTargetEntity
   * joinColumnInsertable
   * joinColumnUpdatable 
@@ -51,7 +51,7 @@ Many objects have been improved with new methods added
   * manyToOneFetchType 
   * oneToManyFetchType 
   * oneToOneFetchType 
-* **$link : new methods**
+* **$link :** 
   * entity 
   * hasMappedBy\(\) 
   * insertable
@@ -59,7 +59,14 @@ Many objects have been improved with new methods added
   * isEmbedded\(\) 
   * isTransient\(\) 
   * updatable 
-  * updatableIs\(boolean value\)
+  * updatableIs\(boolean value\) 
+* **$model :** 
+  * description 
+  * folderName 
+  * name 
+  * title 
+  * type 
+  * version
 
 \*\*\*\*
 
