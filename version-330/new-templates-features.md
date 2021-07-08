@@ -65,7 +65,7 @@ The cancel directive just stop the generation without writing the output file \(
 Example to avoid overwriting an existing file :
 
 ```text
-#if($target.outputFileExists() )
+#if( $target.outputFileExists() )
 #cancel("File already exists")
 #end
 ```
