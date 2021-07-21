@@ -60,11 +60,46 @@ $file.loadContent(2)## NO EOL
 
 
 
-### $jpa functions improvements
+### JPA functions improvements
 
-xxx
+Functions for Java JPA \("$jpa" object\) have been improved in order to facilitate JPA entities generation and make it more flexible.
 
+Examples :
 
+Define default "**fetch type**" \("LAZY" or "EAGER"\) for all links cardinality \("ManyToMany", "OneToMany", "ManyToOne", "OneToOne" \) :
+
+```text
+#set( $jpa.manyToManyFetchType = 'EAGER' )
+#set( $jpa.manyToManyFetchType = 'LAZY' )
+
+#set( $jpa.manyToOneFetchType = 'LAZY' )
+
+#set( $jpa.oneToManyFetchType = 'EAGER' )
+
+#set( $jpa.oneToOneFetchType = 'LAZY' )
+```
+
+Define the value for "**insertable**" and "**updatable**" attribute in "@JoinColumn" annotation
+
+```text
+#set( $jpa.joinColumnInsertable = true )
+#set( $jpa.joinColumnInsertable = false)
+
+#set( $jpa.joinColumnUpdatable = true )
+#set( $jpa.joinColumnUpdatable = false)
+```
+
+Define if "**targetEntity**" must be generated in JPA annotation \(@ManyToMany, @OneToMany, etc\)
+
+```text
+#set( $jpa.genTargetEntity = true )
+```
+
+xx
+
+```text
+xx
+```
 
 ### \#cancel directive
 
