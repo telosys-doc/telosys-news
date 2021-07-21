@@ -24,3 +24,5 @@ This version mainly brings improvements for the **DSL model** and the **template
 The new Telosys reference documentation is available here :  
 [https://doc.telosys.org/](https://doc.telosys.org/)
 
+Thanks to [GitBook](https://www.gitbook.com/) for supporting Open Source projects.
+
