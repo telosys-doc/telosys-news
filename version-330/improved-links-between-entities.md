@@ -1,2 +1,0 @@
-# Improved links between entities
-

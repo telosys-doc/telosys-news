@@ -17,4 +17,5 @@ This version mainly brings improvements for the **DSL model** and the **template
 * New objects usable in templates \( $bundle, $now, $file, $fkPart \)
 * Possibility to cancel a generation in a template with the new directive  "\#cancel"
 * Improvement of existing objects
-* 
+* Java JPA customization for default behavior
+
