@@ -60,13 +60,13 @@ $file.loadContent(2)## NO EOL
 
 
 
-### JPA functions improvements
+### Java JPA improvements
 
-Functions for Java JPA \("$jpa" object\) have been improved in order to facilitate JPA entities generation and make it more flexible.
+In addition to the new JPA annotations in the model some JPA customizations have been added to define global default values in order to facilitate JPA entities generation and make it more flexible.
 
 Examples :
 
-Define default "**fetch type**" \("LAZY" or "EAGER"\) for all links cardinality \("ManyToMany", "OneToMany", "ManyToOne", "OneToOne" \) :
+Define default "**fetch type**" \("**LAZY**" or "**EAGER**"\) for all links cardinality \("ManyToMany", "OneToMany", "ManyToOne", "OneToOne" \) :
 
 ```text
 #set( $jpa.manyToManyFetchType = 'EAGER' )
@@ -79,7 +79,7 @@ Define default "**fetch type**" \("LAZY" or "EAGER"\) for all links cardinality 
 #set( $jpa.oneToOneFetchType = 'LAZY' )
 ```
 
-Define the value for "**insertable**" and "**updatable**" attribute in "@JoinColumn" annotation
+Define the value for "**insertable**" and "**updatable**" attribute in "**@JoinColumn**" annotation
 
 ```text
 #set( $jpa.joinColumnInsertable = true )
@@ -95,10 +95,11 @@ Define if "**targetEntity**" must be generated in JPA annotation \(@ManyToMany, 
 #set( $jpa.genTargetEntity = true )
 ```
 
-xx
+The **default collection type** to be used can defined in the current environement object \(default is "java.util.List" \)
 
 ```text
-xx
+#set($env.collectionType = "java.util.Set")
+#set($env.collectionType = "java.util.Collection")
 ```
 
 ### \#cancel directive
