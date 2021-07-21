@@ -19,3 +19,8 @@ This version mainly brings improvements for the **DSL model** and the **template
 * Improvement of existing objects
 * Java JPA customization for default behavior
 
+### New documentation :
+
+The new Telosys reference documentation is available here :  
+[https://doc.telosys.org/](https://doc.telosys.org/)
+
