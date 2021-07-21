@@ -47,8 +47,8 @@ Many objects have been improved with new attributes and new methods added.
   * joinColumnUpdatable 
   * linkAnnotations\(leftMargin, link\)
   * linkCardinalityAnnotation\(leftMargin,link\) 
-  * linkJoinAnnotationleftMargin, link\) 
-  * linkJoinAnnotationleftMargin, link, alreadyMappedFields\) 
+  * linkJoinAnnotation\(leftMargin, link\) 
+  * linkJoinAnnotation\(leftMargin, link, alreadyMappedFields\) 
   * manyToManyFetchType 
   * manyToOneFetchType 
   * oneToManyFetchType 
