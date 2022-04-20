@@ -4,7 +4,7 @@
 
 The DSL model has been improved (with a new parser) and is now the unique model for Telosys.
 
-
+For now version 4.0.0 is only available with **Telosys-CLI**
 
 ### Models
 
