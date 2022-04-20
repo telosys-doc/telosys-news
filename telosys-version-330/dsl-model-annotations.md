@@ -2,40 +2,44 @@
 
 ### New annotations
 
-* Explicit **Foreign Key** with 
-  * **@FK\(**xx**\)**
-* **@Insertable\(**true\|false**\)**  
-* **@Updatable\(**true\|false**\)**
+* Explicit **Foreign Key** with&#x20;
+  * **@FK(**xx**)**
+* **@Insertable(**true|false**)** &#x20;
+* **@Updatable(**true|false**)**
 * **@Optional**
 * **@Transient**
 
 
 
-### New annotations for links 
+### New annotations for links&#x20;
 
 * Link **fetch type** :
-  * **@FetchTypeLazy** 
-  * **@FetchTypeEager** 
+  * **@FetchTypeLazy**&#x20;
+  * **@FetchTypeEager**\
+    ****
 * Link by **attribute** with
-  * **@LinkByAttr\(**attribName**\)** 
-  * **@LinkByAttr\(**attr1 &gt; refAttr1 ,  attr2 &gt; refAttr2 , ...**\)** 
+  * **@LinkByAttr(**attribName**)**&#x20;
+  * **@LinkByAttr(**attr1 > refAttr1 ,  attr2 > refAttr2 , ...**)**\
+    ****
 * Link by **column** with
-  * **@LinkByCol\(**column\[, column2 \[, columnN \] \] **\)** 
+  * **@LinkByCol(**column\[, column2 \[, columnN ] ] **)**\
+    ****
 * Link by **Foreign Key** :
-  * **@LinkByFK\(**fkName**\)** 
-* Link by "**join entity**" \(for "many to many" cardinality\)
-  * **@LinkByJoinEntity\(**entityName**\)** 
+  * **@LinkByFK(**fkName**)**\
+    ****
+* Link by "**join entity**" (for "many to many" cardinality)
+  * **@LinkByJoinEntity(**entityName**)**\
+
 * Link **cardinality** :
-  * **@ManyToMany** 
-  * **@OneToOne** 
-* Link "mapped by" \(for ORM\) :
-  * **@MappedBy\(**attributeName**\)**
+  * **@ManyToMany**&#x20;
+  * **@OneToOne**\
+    ****
+* Link "mapped by" (for ORM) :
+  * **@MappedBy(**attributeName**)**
 
 
 
 ### Annotation removed
 
 The useless annotation "**@SqlType**" has been removed
-
-
 
