@@ -10,7 +10,8 @@ It is possible to create a new DSL model from a database schema (as for the prev
 
 The DSL model has a new structure: each model is completely contained in a directory. It is more convenient to exchange and store models.
 
-
+Many new annotations have been added to enrich the DSL model.\
+See here :&#x20;
 
 
 
