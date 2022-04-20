@@ -34,7 +34,12 @@ See: [https://doc.telosys.org/dsl-model/annotations](https://doc.telosys.org/dsl
 
 ### Templates
 
-xx
+New objects and functions have been added in the generator context to make it easier to write templates.&#x20;
+
+For example, a combination of new annotations and new functions simplifies SQL code generation.
+
+Among others, here are some new objects uasble in the templates: \
+$sql, $reference, $factory
 
 
 
