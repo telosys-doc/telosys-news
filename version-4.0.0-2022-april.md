@@ -14,10 +14,10 @@ The DSL model has been enhanced to support all functionality previously availabl
 
 **Annotations** and **tags** are now usable at **entity** level.
 
-It is possible to create a new DSL model from a database schema (as for the previous "db-model")&#x20;
+It is possible to **create a new DSL model from a database schema** (as for the previous "db-model")&#x20;
 
 The DSL model has a new structure: \
-each model is completely contained in a directory. \
+each model is completely contained in a directory.\
 It is more convenient to exchange and store models.&#x20;
 
 See: [https://doc.telosys.org/dsl-model](https://doc.telosys.org/dsl-model)
@@ -30,15 +30,13 @@ See: [https://doc.telosys.org/dsl-model/annotations](https://doc.telosys.org/dsl
 
 
 
-
-
 ### Templates
 
 New objects and functions have been added in the generator context to make it easier to write templates.&#x20;
 
 For example, a combination of new annotations and new functions simplifies SQL code generation.
 
-Among others, here are some new objects uasble in the templates: \
+Among others, here are some new objects usable in the templates: \
 $sql, $reference, $factory
 
 
