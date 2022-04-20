@@ -16,6 +16,8 @@ See: [https://doc.telosys.org/dsl-model](https://doc.telosys.org/dsl-model)
 
 Many new annotations have been added to enrich the DSL model.&#x20;
 
+The DSL model offers now 55 annotations.
+
 See: [https://doc.telosys.org/dsl-model/annotations](https://doc.telosys.org/dsl-model/annotations)
 
 
