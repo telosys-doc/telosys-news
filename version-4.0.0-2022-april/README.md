@@ -1,4 +1,4 @@
-# Version 4.0.0 (2022-April)
+# Version 4.0.0
 
 **Version 4.0.0** is a **major release** with many important changes.
 
