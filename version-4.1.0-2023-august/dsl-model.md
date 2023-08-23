@@ -2,11 +2,9 @@
 
 ### New annotations&#x20;
 
-* **@Cascade** : for ORM cascade management (MERGE, REMOVE, etc)
-* **@JoinEntity** : to explicitly define a 'join entity' (for ORM)
-* **@OrphanRemoval** : for ORM like JPA, Doctrine, etc
-
-
+* **@JoinEntity**  (for entity) : to explicitly define a 'join entity' (for ORM)
+* **@Cascade** (for link) : for ORM cascade management (MERGE, REMOVE, etc)
+* **@OrphanRemoval** (for link) : for ORM like JPA, Doctrine, etc
 
 
 
