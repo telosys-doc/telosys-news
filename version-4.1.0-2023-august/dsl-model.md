@@ -14,8 +14,16 @@
 
 * **@AutoIncremented** : this annotation is now just a shortcut for 'GeneratedValue(IDENTITY)'
 * **@GeneratedValue** : the parameters are different&#x20;
-* \
 
+
+
+### Model objects&#x20;
+
+* $fk.isExplicit() : new,  true if 'real FK' ( with a name )
+* $attribute.jdbcInfo : removed (useless)
+* $attribute.isSelected() : removed (useless )
+* $link.isOwningSide() : removed (useless)
+* $link.isInverseSide() : removed (useless)
 
 
 
