@@ -15,7 +15,7 @@
 
 
 
-### Model objects&#x20;
+### Model objects in template context
 
 * $entity.hasGeneratedKey() : **new**&#x20;
 * $entity.isJoinEntity() : now based on annotation @JoinEntity   \
@@ -37,8 +37,7 @@
 * $attribute.jdbcTypeName : removed\
 
 * $link.isOrphanRemoval() : **new**&#x20;
-* $link.isOwningSide() : removed&#x20;
-* $link.isInverseSide() : removed \
+* $link.joinEntity : **new** \
 
 * $fk.isExplicit() : **new**,  true if 'real FK' ( with a name )\
 
