@@ -1,6 +1,6 @@
 # Telosys news
 
-[https://www.linkedin.com/company/telosys/](https://www.linkedin.com/company/telosys/)[https://www.linkedin.com/company/telosys/](https://www.linkedin.com/company/telosys/)Find out what's new in each new version
+Find out what's new in each new version.
 
 
 
