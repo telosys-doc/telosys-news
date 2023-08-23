@@ -22,9 +22,18 @@
 * $entity.entity.isJoinEntity() : **new**\
 
 * $attribute.fkPartsCount : **new**
+* $attribute.ini : **new**
+* $attribute.hasGeneratedValueStrategy(...)  : **new**&#x20;
+* $attribute.hasGeneratedValueAllocationSize()  : **new** \
+  $attribute.generatedValueAllocationSize : **new**&#x20;
+* $attribute.hasGeneratedValueInitialValue[^1]\()  : **new** \
+  $attribute.generatedValueInitialValue : **new**&#x20;
+* $attribute.hasGeneratedValueSequenceName()  : **new** $attribute.generatedValueSequenceName : **new**&#x20;
+* $attribute.hasGeneratedValueTablePkValue() : **new** \
+  $attribute.generatedValueTablePkValue: **new**&#x20;
 * $attribute.isSelected() : removed&#x20;
 * $attribute.isDatabaseNotNull() : removed&#x20;
-* $attribute.isAutoIncremented() : removed, use isGeneratedValue() instead
+* $attribute.isAutoIncremented() : removed - use isGeneratedValue() instead
 * $attribute.jdbcInfo : removed
 * $attribute.jdbcRecommendedJavaType : removed
 * $attribute.jdbcTypeCode : removed
@@ -43,3 +52,6 @@
 
 
 
+
+
+[^1]: 
