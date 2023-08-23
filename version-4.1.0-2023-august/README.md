@@ -2,3 +2,5 @@
 
 Version 4.1.0 is an intermediate version providing significant improvements.
 
+Deprecated or unnecessary elements have been removed.
+
