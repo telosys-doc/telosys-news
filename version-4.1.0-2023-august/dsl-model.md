@@ -19,14 +19,25 @@
 
 ### Model objects&#x20;
 
-* $fk.isExplicit() : new,  true if 'real FK' ( with a name )
-* $attribute.jdbcInfo : removed (useless)
-* $attribute.isSelected() : removed (useless )
-* $link.isOrphanRemoval() : new&#x20;
-* $link.isOwningSide() : removed (useless)
-* $link.isInverseSide() : removed (useless)
-* $fkPart.referencedEntity : new
-* $fkPart.referencedAttribute : new&#x20;
+* $entity.entity.isJoinEntity() : **new**\
+
+* $attribute.fkPartsCount : **new**
+* $attribute.isSelected() : removed&#x20;
+* $attribute.isDatabaseNotNull() : removed&#x20;
+* $attribute.isAutoIncremented() : removed, use isGeneratedValue() instead
+* $attribute.jdbcInfo : removed
+* $attribute.jdbcRecommendedJavaType : removed
+* $attribute.jdbcTypeCode : removed
+* $attribute.jdbcTypeName : removed\
+
+* $link.isOrphanRemoval() : **new**&#x20;
+* $link.isOwningSide() : removed&#x20;
+* $link.isInverseSide() : removed \
+
+* $fk.isExplicit() : **new**,  true if 'real FK' ( with a name )\
+
+* $fkPart.referencedEntity : **new**
+* $fkPart.referencedAttribute : **new**&#x20;
 
 
 
