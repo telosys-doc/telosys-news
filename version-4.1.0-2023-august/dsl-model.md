@@ -22,8 +22,11 @@
 * $fk.isExplicit() : new,  true if 'real FK' ( with a name )
 * $attribute.jdbcInfo : removed (useless)
 * $attribute.isSelected() : removed (useless )
+* $link.isOrphanRemoval() : new&#x20;
 * $link.isOwningSide() : removed (useless)
 * $link.isInverseSide() : removed (useless)
+* $fkPart.referencedEntity : new
+* $fkPart.referencedAttribute : new&#x20;
 
 
 
