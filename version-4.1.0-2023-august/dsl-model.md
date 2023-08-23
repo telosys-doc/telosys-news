@@ -31,10 +31,8 @@
 * $attribute.hasGeneratedValueSequenceName()  : **new** $attribute.generatedValueSequenceName : **new**&#x20;
 * $attribute.hasGeneratedValueTablePkValue() : **new** \
   $attribute.generatedValueTablePkValue: **new**&#x20;
+* $attribute.generatedValueGenerator : removed
 * $attribute.isSelected() : removed&#x20;
-* $attribute.isDatabaseNotNull() : removed&#x20;
-* $attribute.isAutoIncremented() : removed - use isGeneratedValue() instead
-* $attribute.jdbcInfo : removed
 * $attribute.jdbcRecommendedJavaType : removed
 * $attribute.jdbcTypeCode : removed
 * $attribute.jdbcTypeName : removed\
