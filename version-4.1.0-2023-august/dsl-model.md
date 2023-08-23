@@ -19,7 +19,8 @@
 
 ### Model objects&#x20;
 
-* $entity.entity.isJoinEntity() : **new**\
+* $entity.hasGeneratedKey() : **new**&#x20;
+* $entity.isJoinEntity() : now based on annotation @JoinEntity   \
 
 * $attribute.fkPartsCount : **new**
 * $attribute.ini : **new**
