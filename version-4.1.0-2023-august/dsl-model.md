@@ -36,8 +36,8 @@
 
 * $fk.isExplicit() : **new**,  true if 'real FK' ( with a name )\
 
-* $fkPart.referencedEntity : **new**
-* $fkPart.referencedAttribute : **new**&#x20;
+
+
 
 
 
