@@ -11,7 +11,7 @@ In addition to the evolutions concerning the objects related to the model, some 
 
 #### Changed objects&#x20;
 
-* **$java** : toStringMethod(..) new arguments (same as in $csharp and $php )
+* **$java** : toStringMethod(..) new parameters (same as in $csharp and $php )
 * **$jdbc** : provides automatic conversion to SQL column and type,\
   useless functions removed :  \
   &#x20;  resultSetGetter(), valueForPreparedStatement(), preparedStatementSetter()&#x20;

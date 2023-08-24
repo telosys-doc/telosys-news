@@ -11,7 +11,7 @@
 ### Modified annotations
 
 * **@AutoIncremented** : this annotation is now just a shortcut for 'GeneratedValue(IDENTITY)'
-* **@GeneratedValue** : the parameters are different&#x20;
+* **@GeneratedValue** : the parameters are different and simpler
 
 
 
