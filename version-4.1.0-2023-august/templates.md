@@ -2,7 +2,7 @@
 
 ### Generator objects&#x20;
 
-In addition to the evolutions concerning the objects related to the model, some technical objects  have also changed.
+In addition to the evolutions concerning the model, some technical objects have also changed.
 
 #### New objects&#x20;
 
