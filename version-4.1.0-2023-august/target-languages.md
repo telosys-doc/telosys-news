@@ -25,7 +25,7 @@ Nullable types are now supported for C#
 
 Typed class properties have been added in PHP 7.4&#x20;
 
-So it's now possible to generate PHP code with the type corresponding the attribute.
+So it's now possible to generate PHP code with the type corresponding to the attribute.
 
 The type can be : string, bool, int, float or DateTime
 
