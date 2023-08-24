@@ -4,7 +4,7 @@
 
 Kotlin is a new predefined target language added in version 4.1.0&#x20;
 
-It supports nullable types ( )&#x20;
+It supports nullable types.
 
 
 
@@ -17,14 +17,19 @@ New temporal types have been added :&#x20;
 * **DateOnly** ( Day / Month / Year ) &#x20;
 * **TimeOnly** ( Hour / Min / Sec / NanoSec )
 
-Nullable types (marked with "?" at the end) are now automatically provided  \
-if the attribute is 'nullable' and '$env.typeWithNullableMark' is TRUE
+Nullable types are now supported for C#
 
 
 
 ### PHP
 
-xx
+Typed class properties have been added in PHP 7.4&#x20;
+
+So it's now possible to generate PHP code with the type corresponding the attribute.
+
+The type can be : string, bool, int, float or DateTime
+
+Nullable types are supported for PHP
 
 
 
