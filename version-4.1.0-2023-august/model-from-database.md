@@ -18,12 +18,26 @@ Creating a new model from a database is now more accurate and more flexible.
 
 ### Customization in "databases.yaml"
 
-* **databaseDefaultValue** : true / false
-* **databaseComment** : true / false &#x20;
+New options allow you to define more precisely what you want to get from the database :&#x20;
+
+```
+linksManyToOne: true
+linksOneToMany: false
+linksManyToMany: false
+
+dbComment : false
+dbCatalog : false
+dbSchema : false
+dbTable : false
+dbView : false
+dbName  :     false    
+dbType :     false    
+dbDefaultValue: false
+```
 
 
 
 ### Other&#x20;
 
 * model files are now always created in UTF-8
-*
+
