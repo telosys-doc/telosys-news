@@ -39,7 +39,8 @@
 * $link.isOrphanRemoval() : **new**&#x20;
 * $link.joinEntity : **new**  \
 
-* $fk.isExplicit() : **new**,  true if 'real FK' ( with a name )\
+* $fk.isExplicit() : **new**,  true if 'real FK' ( with a name )
+* $fk.isComposite() :  **new**,  true if more than 1 attribute\
 
 * $fkPart.referencedAttribute : new &#x20;
 * $fkPart.referencedEntity : new  \
