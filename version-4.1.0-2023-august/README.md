@@ -16,5 +16,13 @@ Telosys-CLI has new commands.
 
 
 
-See below for details
+See below for details :
+
+* [model.md](model.md "mention")
+* [templates.md](templates.md "mention")
+* [target-languages.md](target-languages.md "mention")
+* [model-from-database.md](model-from-database.md "mention")
+* [telosys-cli.md](telosys-cli.md "mention")
+
+
 
