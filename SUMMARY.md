@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Telosys news](README.md)
+* [Version 4.1.1 (2024-January)](version-4.1.1-2024-january.md)
 * [Version 4.1.0 (2023-August)](version-4.1.0-2023-august/README.md)
   * [Model](version-4.1.0-2023-august/model.md)
   * [Templates](version-4.1.0-2023-august/templates.md)
