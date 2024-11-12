@@ -1,6 +1,6 @@
 # Version 4.2.0 (2024-November)
 
-Version 4.2.0 mainly includes improvements to CLI commands and configuration
+Version 4.2.0 mainly includes improvements to CLI commands and configuration.
 
 ### -> New variables usable in bundles (targets definition)
 
