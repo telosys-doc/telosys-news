@@ -123,9 +123,17 @@ Here are some examples of commands:
 * **Status    `git statusm`** (for a model)  or  **`git statusb`** (for a bundle)
 * **Publish    `git pubm`** (for a model)  or  **`git pubb`** (for a bundle)  => add + commit + push&#x20;
 
-> git initm &#x20;
+The "Git remote" is the current "Telosys depot" (GitHub, etc)
 
 #### 🔷 New "sql" command
+
+With this new version it is now possible to execute a **SQL script** on a database.
+
+Command usage:   **`sql database-id sql-file`**
+
+The **database-id** is one of the databases defined in **databases.yaml**
+
+
 
 
 
