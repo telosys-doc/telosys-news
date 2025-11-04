@@ -110,9 +110,22 @@ Python “**Type Hints**” are now supported by Telosys:
 
 ## 🟠 Telosys CLI&#x20;
 
-### 🔷 New "git" command
+#### 🔷 New "git" command
 
-### 🔷 New "sql" command
+Git is now embedded in Telosys-CLI in order to execute some basic Git commands directly in the CLI, even if Git is not installed on the workstation.
+
+This makes it easy to manage the creation and modification of **models** and **bundles**, which are made available as Git repositories.
+
+Here are some examples of commands:
+
+* **Init**   **`git initm`** (for a model)  or  **`git initb`** (for a bundle)
+* **Clone    `git clonem`** (for a model)  or  **`git cloneb`** (for a bundle)
+* **Status    `git statusm`** (for a model)  or  **`git statusb`** (for a bundle)
+* **Publish    `git pubm`** (for a model)  or  **`git pubb`** (for a bundle)  => add + commit + push&#x20;
+
+> git initm &#x20;
+
+#### 🔷 New "sql" command
 
 
 
