@@ -92,9 +92,13 @@ Special "empty variables" that can be used for indenting directives in templates
 
 ## 🟠 Target languages&#x20;
 
-#### 🔷 Python
+#### 🔷 Python - Type Hints
 
-Python “**Type Hints**” are now supported&#x20;
+In Python, "**Type Hints**" allow developers to annotate code by specifying the expected types for variables and function arguments.&#x20;
+
+Python “**Type Hints**” are now supported by Telosys\
+for example when using `$fn.argumentsListWithType($entity.keyAttributes)`  \
+with  `#set( $env.language = 'Python' )`
 
 
 
