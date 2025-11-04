@@ -40,8 +40,8 @@ Nullable types are now automatically provided for the languages concerned ( C#, 
 A nullable type is a type with a "nullable mark" at the end or at the beginning of the type,   \
 for example : &#x20;
 
-* "int**?**" and "string**?**" for C#&#x20;
-* "**?**int" and "**?**string" for PHP
+* "in&#x74;**?**" and "strin&#x67;**?**" for C#&#x20;
+* "**?**&#x69;nt" and "**?**&#x73;tring" for PHP
 
 The "nullable mark" is automatically added to the type if : \
 &#x20;  the attribute is 'nullable' \

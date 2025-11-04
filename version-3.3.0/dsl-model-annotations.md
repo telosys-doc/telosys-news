@@ -3,9 +3,9 @@
 ### New annotations
 
 * Explicit **Foreign Key** with&#x20;
-  * **@FK(**xx**)**
-* **@Insertable(**true|false**)** &#x20;
-* **@Updatable(**true|false**)**
+  * **@FK(**&#x78;&#x78;**)**
+* **@Insertable(**&#x74;rue|fals&#x65;**)** &#x20;
+* **@Updatable(**&#x74;rue|fals&#x65;**)**
 * **@Optional**
 * **@Transient**
 
@@ -18,24 +18,24 @@
   * **@FetchTypeEager**\
 
 * Link by **attribute** with
-  * **@LinkByAttr(**attribName**)**&#x20;
-  * **@LinkByAttr(**attr1 > refAttr1 ,  attr2 > refAttr2 , ...**)**\
+  * **@LinkByAttr(**&#x61;ttribNam&#x65;**)**&#x20;
+  * **@LinkByAttr(**&#x61;ttr1 > refAttr1 ,  attr2 > refAttr2 , ...**)**\
 
 * Link by **column** with
-  * **@LinkByCol(**column\[, column2 \[, columnN ] ] **)**\
+  * **@LinkByCol(**&#x63;olumn\[, column2 \[, columnN ] ] **)**\
 
 * Link by **Foreign Key** :
-  * **@LinkByFK(**fkName**)**\
+  * **@LinkByFK(**&#x66;kNam&#x65;**)**\
 
 * Link by "**join entity**" (for "many to many" cardinality)
-  * **@LinkByJoinEntity(**entityName**)**\
+  * **@LinkByJoinEntity(**&#x65;ntityNam&#x65;**)**\
 
 * Link **cardinality** :
   * **@ManyToMany**&#x20;
   * **@OneToOne**\
 
 * Link "mapped by" (for ORM) :
-  * **@MappedBy(**attributeName**)**
+  * **@MappedBy(**&#x61;ttributeNam&#x65;**)**
 
 
 

@@ -1,4 +1,4 @@
-# Version 4.3.0 (2025-October)
+# Version 4.3.0 (coming soon...)
 
 Telosys version 4.3.0 brings many significant improvements, such as **4 new neutral types** and new commands in the command-line interface, such as "**git**" and "**sql**".
 
@@ -10,19 +10,19 @@ The Telosys model grammar has been enhanced with 4 new neutral types
 
 #### 🔷 **uuid**
 
-This neutral type is for "**Universally Unique Identifier**" (128-bit number used to uniquely identify information). A type that is now supported by almost all programming languages ​​and by some databases.&#x20;
+This type is for "**Universally Unique Identifier**" (128-bit number used to uniquely identify information). A type that is now supported by almost all programming languages ​​and by some databases.&#x20;
 
 #### 🔷 **datetime**
 
-This neutral type is intended for storing a **date** with a **time**&#x20;
+This type is intended for storing a **date** with a **time**&#x20;
 
 #### 🔷 **datetimetz**
 
-This type is like "datetime" but with "Time Zone Offset"
+This type is like "**datetime**" but with "**Time Zone Offset**"
 
 #### 🔷 **timetz**
 
-This type is like "time" but with "Time Zone Offset"
+This type is like "**time**" but with "**Time Zone Offset**"
 
 ℹ️ the type "**timestamp**" is replaced by "**datetime**" and is now deprecated.\
 It is maintained to ensure backward compatibility and can be considered a synonym of "**datetime**" .
