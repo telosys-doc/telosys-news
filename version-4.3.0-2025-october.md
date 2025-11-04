@@ -1,36 +1,31 @@
 # Version 4.3.0 (2025-October)
 
-Telosys version 4.3.0 brings many significant improvements, such as new neutral types and new commands in the command-line interface, such as "git" and "sql".\
-See the details below.
+Telosys version 4.3.0 brings many significant improvements, such as **4 new neutral types** and new commands in the command-line interface, such as "**git**" and "**sql**".
 
-## 🟠 Telosys model&#x20;
+See the details below:
 
-#### 🔷 New neutral types&#x20;
+## 🟠 Telosys model - New neutral types&#x20;
 
 The Telosys model grammar has been enhanced with 4 new neutral types
 
-🔶**uuid**
+#### 🔷 **uuid**
 
 This neutral type is for "**Universally Unique Identifier**" (128-bit number used to uniquely identify information). A type that is now supported by almost all programming languages ​​and by some databases.&#x20;
 
-🔶**datetime**
+#### 🔷 **datetime**
 
 This neutral type is intended for storing a **date** with a **time**&#x20;
 
-🔶**datetimetz**
+#### 🔷 **datetimetz**
 
 This type is like "datetime" but with "Time Zone Offset"
 
-🔶**timetz**
+#### 🔷 **timetz**
 
 This type is like "time" but with "Time Zone Offset"
 
 ℹ️ the type "**timestamp**" is replaced by "**datetime**" and is now deprecated.\
 It is maintained to ensure backward compatibility and can be considered a synonym of "**datetime**" .
-
-#### 🔷 Annotations
-
-
 
 
 
@@ -93,13 +88,13 @@ all methods have been moved in **$java** object
 
 Special "empty variables" that can be used for indenting directives in templates.
 
+
+
 ## 🟠 Target languages&#x20;
 
 #### 🔷 Python
 
 Python “**Type Hints**” are now supported&#x20;
-
-
 
 
 
