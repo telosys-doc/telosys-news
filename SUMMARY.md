@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Telosys news](README.md)
-* [Version 4.3.0 (coming soon...)](version-4.3.0-coming-soon....md)
+* [Version 4.3.0 (2025-November)](version-4.3.0-2025-november.md)
 * [Version 4.2.0 (2024-November)](version-4.2.0.md)
 * [Version 4.1.1 (2024-January)](version-4.1.1.md)
 * [Version 4.1.0 (2023-August)](version-4.1.0/README.md)
