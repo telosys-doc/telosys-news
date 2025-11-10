@@ -100,11 +100,22 @@ Python “**Type Hints**” are now supported by Telosys:
 
 * Define Python as the current target language&#x20;
   * &#x20;`#set( $env.language = 'Python' )`
-* When Python is the current target language the "Type Hint" is used or returned by all objects using an attribute type:
-  * &#x20;`$attribute.type`
-  * &#x20;`$attribute.simpleType`
-  * &#x20;`$fn.argumentsListWithType($entity.keyAttributes)` &#x20;
-  * etc
+*   When Python is the current target language the "Type Hint" is used or returned by all objects using an attribute type:
+
+    * &#x20;`$attribute.type`
+    * &#x20;`$attribute.simpleType`
+    * &#x20;`$fn.argumentsListWithType($entity.keyAttributes)` &#x20;
+    * etc
+
+
+
+## 🟠 Database configuration
+
+#### 🔷 "databases.yaml"  simplification
+
+Default values ​​have been added to simplify database configuration.
+
+The "databases.yaml" file is therefore less verbose.
 
 
 
