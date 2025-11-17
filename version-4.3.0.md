@@ -67,7 +67,7 @@ The "databases.yaml" file is therefore less verbose.
 
 #### 🔷 New "git" command
 
-Git is now embedded in Telosys-CLI in order to execute some basic Git commands directly in the CLI, even if Git is not installed on the workstation.
+**Git** is now **embedded in Telosys-CLI** in order to execute some basic Git commands directly in the CLI, even if Git is not installed on the workstation.
 
 This makes it easy to manage the creation and modification of **models** and **bundles**, which are made available as Git repositories.
 
@@ -82,7 +82,7 @@ The "Git remote" is the current "Telosys depot" (GitHub, etc)
 
 #### 🔷 New "sql" command
 
-With this new version it is now possible to execute a **SQL script** on a database.
+With this new version it is now possible to execute a **SQL script** on a database directly in Telosys-CLI..
 
 Command usage:   **`sql database-id sql-file`**
 
