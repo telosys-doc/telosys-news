@@ -1,4 +1,4 @@
-# Version 4.3.0 (coming soon...)
+# Version 4.3.0 (2025-November)
 
 Telosys version 4.3.0 brings many significant improvements, such as **4 new neutral types** and new commands in the command-line interface, such as "**git**" and "**sql**".
 
@@ -100,14 +100,14 @@ Python “**Type Hints**” are now supported by Telosys:
 
 * Define Python as the current target language&#x20;
   * &#x20;`#set( $env.language = 'Python' )`
-*   When Python is the current target language the "Type Hint" is used or returned by all objects using an attribute type:
+* When Python is the current target language the "Type Hint" is used or returned by all objects using an attribute type:
+  * &#x20;`$attribute.type`
+  * &#x20;`$attribute.simpleType`
+  * &#x20;`$fn.argumentsListWithType($entity.keyAttributes)` &#x20;
+  * etc
 
-    * &#x20;`$attribute.type`
-    * &#x20;`$attribute.simpleType`
-    * &#x20;`$fn.argumentsListWithType($entity.keyAttributes)` &#x20;
-    * etc
-
-
+For more details about model types conversion to Python type hints \
+see [https://doc.telosys.org/target-languages/python](https://doc.telosys.org/target-languages/python)
 
 ## 🟠 Database configuration
 
