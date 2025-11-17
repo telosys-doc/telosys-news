@@ -27,6 +27,9 @@ This type is like "**time**" but with "**Time Zone Offset**"
 ℹ️ the type "**timestamp**" is replaced by "**datetime**" and is now deprecated.\
 It is maintained to ensure backward compatibility and can be considered a synonym of "**datetime**" .
 
+For more details about new model types conversion to target language types&#x20;\
+see [https://doc.telosys.org/target-languages](https://doc.telosys.org/target-languages)&#x20;
+
 
 
 ## 🟠 Telosys objects for templates
@@ -108,6 +111,8 @@ Python “**Type Hints**” are now supported by Telosys:
 
 For more details about model types conversion to Python type hints \
 see [https://doc.telosys.org/target-languages/python](https://doc.telosys.org/target-languages/python)
+
+
 
 ## 🟠 Database configuration
 
