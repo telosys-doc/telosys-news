@@ -1,5 +1,7 @@
 # Version 4.3.0 (2025-November)
 
+<figure><img src=".gitbook/assets/Telosys-v430.png" alt=""><figcaption></figcaption></figure>
+
 **Telosys version 4.3.0** brings many significant improvements, such as **4 new neutral types** and new commands in the command-line interface, such as "**git**" and "**sql**".
 
 See the details below:
