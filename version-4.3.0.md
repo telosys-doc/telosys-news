@@ -63,6 +63,8 @@ Default values ​​have been added to simplify database configuration.
 
 The "databases.yaml" file is therefore less verbose.
 
+Example for PostgreSQL: [https://doc.telosys.org/project-databases/postgresql-database](https://doc.telosys.org/project-databases/postgresql-database)
+
 
 
 ## 🟠 Telosys CLI&#x20;
